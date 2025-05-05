@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mhw2.css">
+    <script src="mhw2.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas" rel="stylesheet">
+</head>
+<body>
+
+    <div id = "background_left">
+        <header class = "header_side"></header>
+        <section class = "section_side"></section>
+        <footer class = "footer_side"></footer>
+    </div>
+
+    <div id = "background">
+        <header> 
+        
+            <img src ="Letterboxd-logo.png" id = "logo"/>
+
+            <div id = "navbar">
+                        
+                <div tag id="navbar_profile">
+                    <img src = "foto_profilo.jpg" id = "foto_profilo"/>
+                    <span class = "nav">PRINCIPATO</span>
+                    <img src = "icona_tendina.png" id = "icona_tendina"/>
+           
+                </div>
+
+                <img src = "icona_attivita.png" id = "icona_attivita"/>
+
+                <span class = "nav"> FILM </span>
+                <span class = "nav"> LISTS </span>
+                <span class = "nav"> MEMBERS </span>
+                <span class = "nav"> JOURNAL </span>
+
+                <img src = "icona_ricerca.png" id = "icona_ricerca"/>
+                
+                <form>
+                    <input type="text" id="search_box" />
+                    <input type="submit" id="submit" value="Cerca">
+                </form>
+
+                <div tag id = "log_button"> 
+                    <div tag id = "cont_log1">
+                        <div tag id = "cont_log2">
+                            <span id = "piu">+&nbsp</span>
+                            <span id = "log"> LOG</span>
+                            
+                        </div>
+                    </div>
+
+                    <div tag id = "cont_tend1">
+                        <div tag id = "cont_tend2">
+                            <img src = "icona_tendina_log.png" id = "icona_tendina_log"/>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+        </header>
+   
+        <section>
+
+            <div tag id="header_profile">
+                <img src = "foto_profilo.jpg" id = "foto_profilo1"/>
+                <span id = "nome">Principato</span>
+                
+                <div tag id = "edit_profile0">
+                    <div tag id = "edit_profile">
+                        <span id = "edit">EDIT PROFILE</span>
+                    </div>                  
+                </div>    
+
+                <div id = "settings_profile">
+                    <span id = "settings">...</span>
+                </div>
+                
+                <div id = "profile_stats">
+                    <div class = "profile_stats_cont">
+                        <span class = "profile_stat_n">687 <br><span class = "profile_stat" data-color="blue">FILMS</span></br></span>
+                    </div>
+                    <div class = "profile_stats_cont">
+                        <span class = "profile_stat_n">68 <br><span class = "profile_stat" data-color="blue">THIS YEAR</span></br></span>
+                    </div>
+                    <div class = "profile_stats_cont">
+                        <span class = "profile_stat_n">0 <br><span class = "profile_stat" data-color="blue">LISTS</span></br></span>
+                    </div>
+                    <div class = "profile_stats_cont">
+                        <span class = "profile_stat_n">10 <br><span class = "profile_stat" data-color="blue">FOLLOWING</span></br></span>
+                    </div>
+                    <div id = "profile_stats_cont_last">
+                        <span class = "profile_stat_n">10 <br><span class = "profile_stat" data-color="blue">FOLLOWERS</span></br></span>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div id = "profile_navbar">
+                <div id = "profile_buttons">
+                    <span class = "profile_button" data-color="blue">Profile</span>
+                    <span class = "profile_button" data-color="blue">Activity</span>
+                    <span class = "profile_button" data-color="blue">Films</span>
+                    <span class = "profile_button" data-color="blue">Diary</span>
+                    <span class = "profile_button" data-color="blue">Reviews</span>
+                    <span class = "profile_button" data-color="blue">Watchlist</span>
+                    <span class = "profile_button" data-color="blue">Lists</span>
+                    <span class = "profile_button" data-color="blue">Likes</span>
+                    <span class = "profile_button" data-color="blue">Tags</span>
+                    <span class = "profile_button" data-color="blue">Network</span>
+                </div>
+
+                <div id = "profile_buttons1">
+                    <img src = "icona_ricerca.png" id = "icona_ricerca"/>
+                    <img src = "icona_RSS_feed.png" id = "icona_ricerca"/>
+                </div>
+            </div>
+
+            <div id = "core_profile">
+
+                <div id = "core-profile_left">
+                    <div id = "favorite_films">
+                        <span class = "tag">FAVORITE FILMS</span>
+                        <div id = "favorite_films_list">                      
+                                <img src = "La_Haine.jpg" class = "film"/>
+                                <img src = "indagine.jpg" class = "film"/>                 
+                                <img src = "Inglourious_Basterds.jpg" class = "film"/>                                             
+                                <img src = "ceta.jpg" class = "film"/>
+                        </div>
+                    </div>        
+
+                    <div id = "recent_activity">
+                        <span class = "tag">RECENT ACTIVITY &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspALL</span>
+                        <div id = "recent_activity_list">   
+                            <div class = "film_rating">                
+                                <img src = "an_average_little_man.jpg" class = "film"/>
+                                <span class = "stars">★★★★</span>
+                            </div>
+                            <div class = "film_rating">
+                                <img src = "the_celebration.jpg" class = "film"/>  
+                                <span class = "stars">★★★★</span>
+                            </div>
+                            <div class = "film_rating">               
+                                <img src = "inside_out.jpg" class = "film"/> 
+                                <span class = "stars">★★★★</span>  
+                            </div>
+                            <div class = "film_rating">                                          
+                                <img src = "the_scent_of_the_night.jpg" class = "film"/>
+                                <span class = "stars">★★★★</span>
+                            </div>
+                        </div>                   
+                    </div>
+
+
+                    <div id = "following">
+                        <div class = "tag">
+                            <span class = "tag_f">FOLLOWING</span>
+                            <span class = "n_following">10</span>
+                        </div>
+                        <div id = "following_list">
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>                        
+                            <img src = "foto_profilo_vuota.webp" class = "following_p"/>
+                        </div>
+                    </div>
+
+                    <div id="marvel_section">
+                        <div id="marvel">
+                          <img src="marvel_logo.png" id="marvel_logo" />
+                        </div>
+                      
+                        <div id="marvel_poster">
+                        </div>
+                      
+                        <span id="days_until"></span>
+                      </div>
+                      
+                </div>
+
+                <div id = "sidebar">
+                    <img src = "adv_pro.png" id = "adv"/>
+
+                    <div id = "watchlist">
+                        <div class = "tag">
+                            <span class = "tag_f">WATCHLIST</span>
+                            <span class = "n_following">56</span>
+                        </div>
+
+                        <div id = "watchlist_list">
+                            <img src = "watchlist.png" id = "watchlist_image"/>
+                        </div>
+                    </div>
+
+                    <div id = "diary">
+                        <div class = "tag">
+                            <span class = "tag_f">DIARY</span>
+                            <span class = "n_following">574</span>
+                        </div>
+
+                        <div id = "diary_body">
+
+                            <img src = "month.png" id = "month"/>
+
+                            <div id = "diary_list">
+                                <div class = "day_title">
+                                    <span class = "day">26</span>
+                                    <span class = "title" data-color="blue">An Average Little Man</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">24</span>
+                                    <span class = "title" data-color="blue">The Celebration</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">20</span>
+                                    <span class = "title" data-color="blue">Inside Out</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">18</span>
+                                    <span class = "title" data-color="blue">The Scent of the Night</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">15</span>
+                                    <span class = "title" data-color="blue">Punch-Drunk Love</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">14</span>
+                                    <span class = "title" data-color="blue">The Florida Project</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">12</span>
+                                    <span class = "title" data-color="blue">A Brighter Tomorrow</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">&nbsp&nbsp9</span>
+                                    <span class = "title" data-color="blue">Mickey 17</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">&nbsp&nbsp9</span>
+                                    <span class = "title" data-color="blue">Clockers</span>
+                                </div>
+                                <div class = "day_title">
+                                    <span class = "day">&nbsp&nbsp8</span>
+                                    <span class = "title" data-color="blue">Civil War</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id = "ratings">
+                        <div class = "tag">
+                            <span class = "tag_f">RATINGS</span>
+                            <span class = "n_following">644</span>
+                        </div>
+
+                        <div id = "rating_body">
+                            <span class = "rating">★</span>
+                            <div id = "stats_ratings">
+                                <div id = "stats_rating_½">
+                                </div>
+                                <div id = "stats_rating_1">
+                                </div>
+                                <div id = "stats_rating_1½">
+                                </div>
+                                <div id = "stats_rating_2">
+                                </div>
+                                <div id = "stats_rating_2½">
+                                </div>
+                                <div id = "stats_rating_3">
+                                </div>
+                                <div id = "stats_rating_3½">
+                                </div>
+                                <div id = "stats_rating_4">
+                                </div>
+                                <div id = "stats_rating_4½">
+                                </div>
+                                <div id = "stats_rating_5">
+                                </div>
+                            </div>
+                            <span class = "rating">★★★★★</span>
+
+                        </div>
+                    </div>
+
+                    <div id = "activity">
+                        <div class = "tag">
+                            <span class = "tag_f">ACTIVITY</span>
+                            <span class = "n_following">⚡️ALL</span>
+                        </div>
+
+                        <div id = "activity_body">
+                            <ul class = "activity_list">You watched and rated <span class = "activity_film">An Average Little Man ★★★★</span> on Wednesday Mar 26, 2025 19h</ul>
+                            <ul class = "activity_list">You watched and rated <span class = "activity_film">The Celebration ★★★★</span> on Monday Mar 24, 2025 1d</ul>
+                            <ul class = "activity_list">You watched and rated <span class = "activity_film">Inside Out ★★★★</span> on Thursday Mar 20, 2025 6d</ul>
+                            <ul class = "activity_list">You watched and rated <span class = "activity_film">The Scent of the Night ★★★★</span> on Tuesday Mar 18, 2025 7d</ul>
+                            <ul class = "activity_list">You watched and rated <span class = "activity_film">Punch-Drunk Love ★★★★</span> on Saturday Mar 15, 2025 10d</ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div tag id = "footer0">
+                <div tag id="footer1">
+                    <span class = "footer">About</span>
+                    <span class = "footer">Pro</span>
+                    <span class = "footer">News</span>
+                    <span class = "footer">Apps</span>
+                    <span class = "footer">API</span>
+                    <span class = "footer">Podcast</span>
+                    <span class = "footer">Year in Review</span>
+                    <span class = "footer">Gifts</span>
+                    <span class = "footer">Help</span>
+                    <span class = "footer">Terms</span>
+                    <span class = "footer">API</span>
+                    <span class = "footer">Contact</span>
+                </div>
+
+                <img src = "social.png" id = "social"/>
+            </div>
+
+            <div tag id="footer2">
+                <span id = "copyright">© Letteboxd Limited. Made by <u class = "underline">fans</u> in Aotearoa New Zealand. <u class = "underline">Film data</u> from <u class = "underline">TMDB</u>. <u class = "underline">Mobile site</u></span>
+            </div>
+        </footer>
+    </div>
+
+    <div id = "background_right">
+        <header class = "header_side"></header>
+        <section class = "section_side"></section>
+        <footer class = "footer_side"></footer>
+    </div>
+
+    <div id="fullscreen_view" class="hidden">
+        <img id="fullscreen_img" src=""/>
+    </div>
+
+    <div id="overlay" class="hidden">
+        <div id="film_list_view"></div>
+        <button id="close_overlay">x</button>
+    </div>
+      
+
+</body>
+</html>
